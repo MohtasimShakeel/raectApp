@@ -12,8 +12,8 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: ${{s3user  }}
-        aws-secret-access-key: ${{ cF8|d0nc }}
+        aws-access-key-id: $s3user
+        aws-secret-access-key: $cF8|d0nc
         aws-region: us-east-1 # us-east-1a
         
     # Here you could add some building steps if you were dealing with some angular/react/Vue...
